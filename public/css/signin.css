@@ -1,0 +1,58 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-align: center;
+  -ms-flex-pack: center;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #FFF;
+  font-family: 'Lato', sans-serif;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 370px;
+  padding: 40px 50px;
+  margin: 0 auto;
+  border: 1px solid rgb(222, 222, 222);
+  border-radius: 3px;
+  background-color: rgb(249, 240, 235);
+}
+
+h1 {
+  color: #111 !important;
+}
+
+.form-signin a {
+  color: white !important;
+  text-decoration: none;
+}
+
+.google {
+  width: 72px;
+  height: 72px;
+}
+
+.btn {
+  height: 36px;
+  font-family: 'Lato', sans-serif;
+  position: relative;
+}
+
+.sign_in {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+} 
+

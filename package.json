@@ -1,0 +1,21 @@
+{
+  "name": "zadanie-17.7",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "build": "babel script.js --watch --out-file build.js",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "passport": "^0.4.0",
+    "passport-google-oauth": "^1.0.0",
+    "pug": "^2.0.0-rc.4"
+  },
+  "devDependencies": {},
+  "description": ""
+}
